@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "$(tput setaf 6)
+----------{ YOUR PI IS NOW REBOOTING }----------
+$(tput sgr0)"
+sleep 5s && sudo reboot

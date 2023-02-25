@@ -1,0 +1,170 @@
+{
+  "version": "1.2",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "items": [
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Conker's Bad Fur Day (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/007 - The World Is Not Enough (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Chameleon Twist (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Banjo-Kazooie (USA) (Rev A).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Mario Kart 64 (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Duke Nukem - Zero Hour (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Automobili Lamborghini (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Castlevania (USA) (Rev B).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Donkey Kong 64 (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Castlevania - Legacy of Darkness (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/AeroGauge (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES2",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/1080 Snowboarding (Japan, USA) (En,Ja).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Automobili Lamborghini (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/1080 Snowboarding (Japan, USA) (En,Ja).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Doom 64 (USA) (Rev A).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/F1 Pole Position 64 (USA) (En,Fr,De).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Kirby 64 - The Crystal Shards (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus/mupen64plus_libretro.so",
+      "core_name": "Mupen64Plus GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Kirby 64 - The Crystal Shards (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/Castlevania (USA) (Rev B).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES3",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/n64/AeroGauge (USA).n64",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-mupen64plus-next/mupen64plus_next_libretro.so",
+      "core_name": "Mupen64Plus-Next GLES2",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

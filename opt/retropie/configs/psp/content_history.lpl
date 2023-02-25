@@ -1,0 +1,26 @@
+{
+  "version": "1.2",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "items": [
+    {
+      "path": "/home/pi/RetroPie/roms/psp/Sonic Rivals (Europe).iso",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-ppsspp/ppsspp_libretro.so",
+      "core_name": "PPSSPP",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pi/RetroPie/roms/psp/Burnout Legends (USA).iso",
+      "label": "",
+      "core_path": "/opt/retropie/libretrocores/lr-ppsspp/ppsspp_libretro.so",
+      "core_name": "PPSSPP",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

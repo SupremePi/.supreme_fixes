@@ -1,0 +1,3 @@
+#Name;Title;Emulator;CloneOf;Year;Manufacturer;Category;Players;Rotation;Control;Status;DisplayCount;DisplayType;AltRomname;AltTitle;Extra;Buttons;Series;Language;Region;Rating
+marquee;marquee;Sega Model 3;;;;;;;;;;;;;;;;;;
+themed-marquee;themed-marquee;Sega Model 3;;;;;;;;;;;;;;;;;;

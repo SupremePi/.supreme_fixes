@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "$(tput setaf 2)
+Description : Supreme Build Version
+Author      : Supreme Team
+Version     : 2.0
+Base Build  : Ultra
+$(tput sgr0)"
+sleep 5

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "$(tput setaf 6)
+----------{ YOUR PI IS NOW POWERING DOWN }----------
+$(tput sgr0)"
+sleep 5s && sudo shutdown -h now

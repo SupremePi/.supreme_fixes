@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/pi/.supreme_toolkit/sb_toolkit/_scripts/
+bash /home/pi/.supreme_toolkit/sb_toolkit/_scripts/supreme-marquee-tool.sh

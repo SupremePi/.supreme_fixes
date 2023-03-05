@@ -94,7 +94,7 @@ max_framebuffers=2
 
 [pi3]
 # Enables USB BOOT MODE on PI3B
-program_usb_boot_mode=1
+#program_usb_boot_mode=1
 
 [all]
 #dtoverlay=vc4-fkms-v3d

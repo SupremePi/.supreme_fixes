@@ -2,4 +2,4 @@
 echo "$(tput setaf 6)
 ----------{ YOUR PI IS NOW REBOOTING }----------
 $(tput sgr0)"
-sleep 5s && sudo reboot
+sleep 5 && sudo reboot

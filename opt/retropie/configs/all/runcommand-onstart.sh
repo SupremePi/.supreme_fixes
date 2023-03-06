@@ -6,7 +6,7 @@ echo "$1;$3" > /tmp/lastplayed
 
 ### Begin VideoLoading Screens Function
 enablevideolaunch="true"
-videoloadingscreens="/home/pi/RetroPie/videoloadingscreens/supremteam"
+videoloadingscreens="/home/pi/RetroPie/videoloadingscreens/supremeteam"
 if [[ $enablevideolaunch == "true" ]]; then
 	# Extract file name from called ROM
 	gname="$(basename "$3")"

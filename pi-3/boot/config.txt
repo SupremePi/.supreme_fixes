@@ -1,5 +1,5 @@
 # For more options and information see
-# http://rpf.io/configtxt
+# http://rpf.io/configtxtreadme
 # Some settings may impact device functionality. See link above for details
 
 # uncomment if you get no picture on HDMI for a default "safe" mode
@@ -11,10 +11,10 @@ disable_overscan=1
 
 # uncomment the following to adjust overscan. Use positive numbers if console
 # goes off screen, and negative if there is too much border
-#overscan_left=16
-#overscan_right=16
-#overscan_top=16
-#overscan_bottom=16
+# overscan_left=16
+# overscan_right=16
+# overscan_top=16
+# overscan_bottom=16
 
 # uncomment to force a console size. By default it will be display's size minus
 # overscan.
@@ -22,7 +22,7 @@ disable_overscan=1
 #framebuffer_height=720
 
 # uncomment if hdmi display is not detected and composite is being output
-hdmi_force_hotplug=1
+#hdmi_force_hotplug=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
 #hdmi_group=1
@@ -40,7 +40,16 @@ hdmi_drive=2
 #sdtv_mode=2
 
 #uncomment to overclock the arm. 700 MHz is the default.
-#arm_freq=800
+#uncomment to enable custom overclock settings
+#arm_freq=1300
+#total_mem=1024
+#gpu_freq=500
+#core_freq=500
+#sdram_freq=500
+#sdram_schmoo=0x02000020
+#over_voltage=6
+#sdram_over_voltage=2
+#v3d_freq=525
 
 # Uncomment some or all of these to enable the optional hardware interfaces
 #dtparam=i2c_arm=on
@@ -67,6 +76,6 @@ gpu_mem_256=128
 gpu_mem_512=256
 gpu_mem_1024=256
 overscan_scale=1
-
+		   
 #disable rainbow image at boot 
 disable_splash=1

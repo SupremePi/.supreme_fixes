@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/pi/.supreme_toolkit/sb_toolkit/retropiemenu/visualtools/
+bash /home/pi/.supreme_toolkit/sb_toolkit/retropiemenu/visualtools/resolution-tool.sh

@@ -113,6 +113,15 @@ if ! shopt -oq posix; then
 fi
 # RETROPIE PROFILE START
 
+function getIPAddress() {
+    local ip_route
+    ip_route=$(ip -4 route get 8.8.8.8 2>/dev/null)
+    if [[ -z "$ip_route" ]]; then
+        ip_route=$(ip -6 route get 2001:4860:4860::8888 2>/dev/null)
+    fi
+    [[ -n "$ip_route" ]] && grep -oP "src \K[^\s]+" <<< "$ip_route"
+}
+
 function retropie_welcome() {
     local upSeconds="$(/usr/bin/cut -d. -f1 /proc/uptime)"
     local secs=$((upSeconds%60))
@@ -186,7 +195,7 @@ function retropie_welcome() {
         out+="  ${logo[$i]}  "
         case "$i" in
             0)
-                out+="${fggrn}$(date +"%A, %e %B %Y, %r")"
+                out+="${fggrn}$(date +"%A, %e %B %Y, %X")"
                 ;;
             1)
                 out+="${fggrn}$(uname -srmo)"
@@ -207,10 +216,10 @@ function retropie_welcome() {
                 out+="${fgred}Running Processes..: $(ps ax | wc -l | tr -d " ")"
                 ;;
             8)
-                out+="${fgred}IP Address.........: $(ip route get 8.8.8.8 2>/dev/null | awk '{print $NF; exit}')"
+                out+="${fgred}IP Address.........: $(getIPAddress)"
                 ;;
             9)
-                out+="Temperature........: CPU: $cpuTempC캜/$cpuTempF캟 GPU: $gpuTempC캜/$gpuTempF캟"
+                out+="Temperature........: CPU: ${cpuTempC}째C/${cpuTempF}째F GPU: ${gpuTempC}째C/${gpuTempF}째F"
                 ;;
             10)
                 out+="${fgwht}The RetroPie Project, https://retropie.org.uk"
@@ -219,7 +228,7 @@ function retropie_welcome() {
                 out+="${fggrn}SUPREME ULTRA V2.0 BY WDG"
                 ;;
         esac
-        out+="\n"
+        out+="${rst}\n"
     done
     echo -e "\n$out"
 }
